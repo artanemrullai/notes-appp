@@ -1,5 +1,5 @@
 <main class="wrapper">
-  <div class="card">
+  <div class="card" [routerLink]="['/note/1']">
     <h2 class="text-lg font-bold">Note 1</h2>
     <p class="text-slate-600">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit facilis quae 
@@ -7,7 +7,7 @@
       voluptates error at pariatur possimus distinctio quos quisquam impedit?
     </p>
   </div>
-  <div class="card">
+  <div class="card" [routerLink]="['/note/2']">
     <h2 class="text-lg font-bold">Note 2</h2>
     <p class="text-slate-600">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit facilis quae 
@@ -15,5 +15,5 @@
       voluptates error at pariatur possimus distinctio quos quisquam impedit?
     </p>
   </div>
-  <button class="primary">+ New Note</button>
+  <button class="primary" [routerLink]="['/new-note']">+ New Note</button>
 </main>

@@ -11,6 +11,11 @@ button {
     @apply py-2 px-8 rounded-lg font-semibold text-blue-800 bg-white transition;
     @apply hover:bg-slate-50 hover:text-blue-900;
   }
+  
+  &.danger { 
+    @apply py-2 px-8 rounded-lg font-semibold text-white bg-red-600 hover:bg-red-900 transition;
+
+  }
 }
 
 .card {
